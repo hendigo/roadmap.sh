@@ -19,10 +19,13 @@ The README will be updated regularly as I complete each project section.
 1. [Single Page CV](https://roadmap.sh/projects/single-page-cv)
 
 2. [Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
+
     - Updates: 02/11/2025
     - Remove style.css due to key requirements
     - Change a couple element to achieve more semantic elements
     - Add more attribute and class as needed for next Project.
+
+3. [Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
 
 ## Notes
 

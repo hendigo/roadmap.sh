@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<!-- Basic Metadata -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Suhendi" />
+		<meta
+			name="description"
+			content="Basic HTML Website, has multiple pages (Homepage, Projects, Articles, Contact) and Basic SEO Meta tag on every pages."
+		/>
+		<meta name="keywords" content="HTML, CSS, Javascript, Basic HTML Structure, Semantic HTML." />
+		<link rel="canonical" href="https://suhendi.com/index.html" />
+		<title>Basic HTML Website</title>
+
+		<!-- Open Graph -->
+		<meta property="og:title" content="Suhendi - IT Infra & Digital System" />
+		<meta
+			property="og:description"
+			content="IT professional with experience in network design, server virtualization, and ERPNext implementation. Driven by efficiency and continuous improvement."
+		/>
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://suhendi.com/" />
+		<meta property="og:image" content="https://suhendi.com/assets/images/og-suhendi.jpg" />
+
+		<!-- Twitter Card -->
+		<meta name="twitter:card" content="summary_large_image" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+
+		<link rel="stylesheet" href="style.css" />
+
+		<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+	</head>
+	<body>
+		<header>
+			<section class="section-header">
+				<a class="logo" href="index.html">Suhendi</a>
+				<nav class="nav-main" aria-label="Main Navigation">
+					<ul>
+						<li><a class="nav-item" href="index.html">Home</a></li>
+						<li><a class="nav-item" href="projects.html">Projects</a></li>
+						<li><a class="nav-item" href="articles.html">Articles</a></li>
+						<li><a class="nav-item" href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</section>
+			<section class="section-hero">
+				<img class="hero-img" src="/assets/suhendi.png" alt="Foto Suhendi" />
+				<div>
+					<p class="hero-greet">Hi, I'm</p>
+					<h1 class="hero-heading">Suhendi</h1>
+					<p class="hero-text">IT Infrastructure & Digital Systems Enthusiast</p>
+					<div class="hero-cta">
+						<a class="btn btn--cta margin-right-sm" href="#">Download CV</a>
+						<a class="btn btn--outline" href="#">Contact me</a>
+					</div>
+					<div class="hero-social">
+						<a href="https://github.com/hndevs"><img class="hero-sm-icon" src="assets/github.png" alt="Github Icon" /></a>
+						<a href="https://www.linkedin.com/in/hndevs/"><img class="hero-sm-icon" src="assets/linkedin.png" alt="LinkedIn Icon" /></a>
+					</div>
+				</div>
+			</section>
+		</header>
+		<div class="container">
+			<main id="main">
+				<section class="background-section">
+					<div class="background-item" aria-labelledby="projects-heading">
+						<svg class="background-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+							<path
+								fill-rule="evenodd"
+								d="M7.5 5.25a3 3 0 0 1 3-3h3a3 3 0 0 1 3 3v.205c.933.085 1.857.197 2.774.334 1.454.218 2.476 1.483 2.476 2.917v3.033c0 1.211-.734 2.352-1.936 2.752A24.726 24.726 0 0 1 12 15.75c-2.73 0-5.357-.442-7.814-1.259-1.202-.4-1.936-1.541-1.936-2.752V8.706c0-1.434 1.022-2.7 2.476-2.917A48.814 48.814 0 0 1 7.5 5.455V5.25Zm7.5 0v.09a49.488 49.488 0 0 0-6 0v-.09a1.5 1.5 0 0 1 1.5-1.5h3a1.5 1.5 0 0 1 1.5 1.5Zm-3 8.25a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z"
+								clip-rule="evenodd"
+							/>
+							<path
+								d="M3 18.4v-2.796a4.3 4.3 0 0 0 .713.31A26.226 26.226 0 0 0 12 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 0 1-6.477-.427C4.047 21.128 3 19.852 3 18.4Z"
+							/>
+						</svg>
+
+						<h2 id="projects-heading">Projects</h2>
+						<nav aria-label="Project Categories">
+							<ul>
+								<li><a class="nav-checklist" href="#" title="Projects Networking">Networking</a></li>
+								<li><a class="nav-checklist" href="#" title="Projects Proxmox">Proxmox</a></li>
+								<li><a class="nav-checklist" href="#" title="Projects TrueNAS">TrueNAS</a></li>
+								<li><a class="nav-checklist" href="#" title="Projects ERPNext">ERPNext</a></li>
+								<li><a class="nav-checklist" href="#" title="Projects Biometric Integration">Biometric Integration</a></li>
+								<li><a class="nav-checklist" href="#" title="Projects Web Development">Web Development</a></li>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="background-item">
+						<svg class="background-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+							<path
+								fill-rule="evenodd"
+								d="M2.25 2.25a.75.75 0 0 0 0 1.5H3v10.5a3 3 0 0 0 3 3h1.21l-1.172 3.513a.75.75 0 0 0 1.424.474l.329-.987h8.418l.33.987a.75.75 0 0 0 1.422-.474l-1.17-3.513H18a3 3 0 0 0 3-3V3.75h.75a.75.75 0 0 0 0-1.5H2.25Zm6.54 15h6.42l.5 1.5H8.29l.5-1.5Zm8.085-8.995a.75.75 0 1 0-.75-1.299 12.81 12.81 0 0 0-3.558 3.05L11.03 8.47a.75.75 0 0 0-1.06 0l-3 3a.75.75 0 1 0 1.06 1.06l2.47-2.47 1.617 1.618a.75.75 0 0 0 1.146-.102 11.312 11.312 0 0 1 3.612-3.321Z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+
+						<h2 id="career-heading" class="visually-hidden">Career</h2>
+
+						<div>
+							<section class="experience">
+								<h3 id="experience-heading">Experience</h3>
+								<ul>
+									<li>Solve all roadmap.sh projects.</li>
+								</ul>
+								<a class="btn btn--sm" href="projects.html">Visit my profile &#8599;</a>
+							</section>
+
+							<section class="opensource-work" aria-labelledby="opensource-heading">
+								<h3 class="opensource-heading">Opensource Work</h3>
+								<p class="background-text">Contributed to 50 opensource projects. Made my own projects with 200 GitHub Stars.</p>
+								<a class="btn btn--sm" href="https://github.com/hendigo">Visit my GitHub Profile &#8599;</a>
+							</section>
+						</div>
+					</div>
+
+					<div class="background-item" aria-labelledby="education-heading">
+						<svg class="background-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+							<path
+								d="M11.7 2.805a.75.75 0 0 1 .6 0A60.65 60.65 0 0 1 22.83 8.72a.75.75 0 0 1-.231 1.337 49.948 49.948 0 0 0-9.902 3.912l-.003.002c-.114.06-.227.119-.34.18a.75.75 0 0 1-.707 0A50.88 50.88 0 0 0 7.5 12.173v-.224c0-.131.067-.248.172-.311a54.615 54.615 0 0 1 4.653-2.52.75.75 0 0 0-.65-1.352 56.123 56.123 0 0 0-4.78 2.589 1.858 1.858 0 0 0-.859 1.228 49.803 49.803 0 0 0-4.634-1.527.75.75 0 0 1-.231-1.337A60.653 60.653 0 0 1 11.7 2.805Z"
+							/>
+							<path
+								d="M13.06 15.473a48.45 48.45 0 0 1 7.666-3.282c.134 1.414.22 2.843.255 4.284a.75.75 0 0 1-.46.711 47.87 47.87 0 0 0-8.105 4.342.75.75 0 0 1-.832 0 47.87 47.87 0 0 0-8.104-4.342.75.75 0 0 1-.461-.71c.035-1.442.121-2.87.255-4.286.921.304 1.83.634 2.726.99v1.27a1.5 1.5 0 0 0-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.66a6.727 6.727 0 0 0 .551-1.607 1.5 1.5 0 0 0 .14-2.67v-.645a48.549 48.549 0 0 1 3.44 1.667 2.25 2.25 0 0 0 2.12 0Z"
+							/>
+							<path d="M4.462 19.462c.42-.419.753-.89 1-1.395.453.214.902.435 1.347.662a6.742 6.742 0 0 1-1.286 1.794.75.75 0 0 1-1.06-1.06Z" />
+						</svg>
+
+						<h2 id="education-heading">Education</h2>
+						<p class="background-text">
+							Although I only graduated from <strong>vocational high school</strong>, I’m a self-motivated learner who constantly improves my
+							skills through real projects and problem-solving.
+						</p>
+					</div>
+				</section>
+
+				<section class="review-section" aria-labelledby="reviews-heading">
+					<h2 id="reviews-heading">Reviews from my Teachers</h2>
+
+					<div class="review-container">
+						<article class="review-item" aria-labelledby="review-1-author">
+							<img class="review-img" src="assets/robert.jpg" alt="Robert D. J." />
+							<blockquote class="quote">
+								<p>"Suhendi was a brilliant student; always stood out with his assignments."</p>
+							</blockquote>
+							<p class="review-author" id="review-1-author">
+								Robert D.J. <br />
+								<small>Assistant Professor</small>
+							</p>
+						</article>
+
+						<article class="review-item" aria-labelledby="review-2-author">
+							<img class="review-img" src="assets/john-doe.jpg" alt="John Doe" />
+							<blockquote class="quote">
+								<p>"Consistent, curious, and solves difficult problems with pragmatic approach."</p>
+							</blockquote>
+							<p class="review-author" id="review-2-author">
+								Jane Doe<br />
+								<small>Lecturer</small>
+							</p>
+						</article>
+
+						<article class="review-item" aria-labelledby="review-3-author">
+							<img class="review-img" src="assets/alex.jpg" alt="Alex" />
+							<blockquote class="quote">
+								<p>"Shows growth and initiative in projects and open source contributions."</p>
+							</blockquote>
+							<p class="review-author" id="review-3-author">
+								Alex S.<br />
+								<small>Mentor</small>
+							</p>
+						</article>
+					</div>
+				</section>
+			</main>
+			<footer>
+				<small class="copyright">&copy; 2025 | Suhendi</small>
+			</footer>
+		</div>
+	</body>
+</html>
